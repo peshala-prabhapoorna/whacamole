@@ -95,7 +95,7 @@ func main() {
 		}
 	}()
 
-	homeWindow.SetContent(container.NewMax(list))
+	homeWindow.SetContent(container.NewStack(list))
 	homeWindow.ShowAndRun()
 }
 
